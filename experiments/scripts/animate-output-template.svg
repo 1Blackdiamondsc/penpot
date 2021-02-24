@@ -14,7 +14,7 @@
         function advance() {
             frame = svgDocument.getElementById("frame_id_" + x);
 	    frame.setAttributeNS(null, "display", null);
-          
+
             prev_frame = svgDocument.getElementById("frame_id_" + ((x+length)-1)%length);
    	    prev_frame.setAttributeNS(null, "display", "none");
 
